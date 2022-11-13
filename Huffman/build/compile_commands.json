@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build",
+  "command": "/usr/bin/g++ -Dbitstream_EXPORTS -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -fPIC -std=gnu++20 -o CMakeFiles/bitstream.dir/src/bitstream.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/src/bitstream.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/src/bitstream.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build",
+  "command": "/usr/bin/g++  -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/huffman.dir/src/main.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/src/main.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/src/main.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build",
+  "command": "/usr/bin/g++  -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/huffman.dir/src/huffman.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/src/huffman.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/src/huffman.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test",
+  "command": "/usr/bin/g++  -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\" -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/huffman_test.dir/test.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/test/test.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/test/test.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test",
+  "command": "/usr/bin/g++  -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\" -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/huffman_test.dir/__/src/huffman.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/src/huffman.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/src/huffman.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build",
+  "command": "/usr/bin/g++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/include\" -I\"/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++11 -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp"
+}
+]

@@ -11,8 +11,7 @@ using std::priority_queue;
 using std::shared_ptr;
 using std::vector;
 
-ostream &
-operator<<(ostream &os, const HuffmanCode &code) {
+ostream & operator<<(ostream &os, const HuffmanCode &code) {
     for (int i = code.lengte - 1; i >= 0; i--) {
         uint a = (code.voorstelling >> i) & 0x1;
         os << a;
@@ -21,8 +20,16 @@ operator<<(ostream &os, const HuffmanCode &code) {
 }
 
 map<char, uint> maakFrequentieTabel(istream &s) {
-    // VUL AAN
-    return {};
+    map<char, uint> m;
+    char c;
+    
+    while(s.get(c) && !s.fail()){
+        m[c] ++; 
+             
+    }
+    m[PSEUDO_EOF] = 1;
+
+    return m;
 }
 
 map<char, HuffmanCode> maakCoderingsTabel(const HuffmanKnoop *wortel) {

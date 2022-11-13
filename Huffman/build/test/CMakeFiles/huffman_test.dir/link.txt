@@ -1,0 +1,1 @@
+/usr/bin/g++  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g CMakeFiles/huffman_test.dir/test.cpp.o CMakeFiles/huffman_test.dir/__/src/huffman.cpp.o -o huffman_test  -Wl,-rpath,"/home/bram/Documents/gevorderde algoritmen/Huffman/build" ../libbitstream.so 
