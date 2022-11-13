@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/csv-build/include/internal",
+		"source" : "build/_deps/csv-src/include/internal"
+	}
+}

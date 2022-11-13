@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -shared -Wl,-soname,libserializer.so -o libserializer.so CMakeFiles/serializer.dir/src/serializer.cpp.o  -Wl,-rpath,"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build" libfietsnet.so _deps/csv-build/include/internal/libcsv.a 

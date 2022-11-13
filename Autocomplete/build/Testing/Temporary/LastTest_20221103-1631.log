@@ -1,0 +1,339 @@
+Start testing: Nov 03 17:31 CET
+----------------------------------------------------------
+2/4 Testing: Autocomplete
+2/4 Test: Autocomplete
+Command: "/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test" "--test-case=Autocomplete" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test
+"Autocomplete" start time: Nov 03 17:31 CET
+Output:
+----------------------------------------------------------
+=================================================================
+==24405==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffcb9203d90 at pc 0x55e8c64ac9c4 bp 0x7ffcb9203bc0 sp 0x7ffcb9203bb0
+READ of size 1 at 0x7ffcb9203d90 thread T0
+    #0 0x55e8c64ac9c3 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32
+    #1 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #2 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #3 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #4 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #5 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #6 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #7 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #8 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #9 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #10 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #11 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #12 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #13 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #14 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #15 0x55e8c64acb83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #16 0x55e8c64ac1fe in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:16
+    #17 0x55e8c64376e8 in DOCTEST_ANON_FUNC_15 /home/bram/Documents/gevorderde algoritmen/Autocomplete/test/test.cpp:25
+    #18 0x55e8c643063f in doctest::Context::run() /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:6930
+    #19 0x55e8c64341df in main /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:7008
+    #20 0x7f7930f91d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #21 0x7f7930f91e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #22 0x55e8c63bc3f4 in _start (/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test+0x1683f4)
+
+Address 0x7ffcb9203d90 is located in stack of thread T0 at offset 96 in frame
+    #0 0x55e8c64ac2b7 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:19
+
+  This frame has 2 object(s):
+    [32, 40) 'h' (line 31)
+    [64, 96) '<unknown>' <== Memory access at offset 96 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&)
+Shadow bytes around the buggy address:
+  0x100017238760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100017238770: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100017238780: 00 00 f1 f1 f1 f1 00 f2 f2 f2 00 00 00 00 f3 f3
+  0x100017238790: f3 f3 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1000172387a0: 00 00 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2 00 00
+=>0x1000172387b0: 00 00[f3]f3 f3 f3 00 00 00 00 00 00 00 00 00 00
+  0x1000172387c0: 00 00 00 00 00 00 00 00 00 00 f1 f1 f1 f1 f8 f2
+  0x1000172387d0: f2 f2 00 00 00 00 f3 f3 f3 f3 00 00 00 00 00 00
+  0x1000172387e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f1 f1
+  0x1000172387f0: f1 f1 f8 f2 f2 f2 00 00 00 00 f3 f3 f3 f3 00 00
+  0x100017238800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==24405==ABORTING
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Failed.
+"Autocomplete" end time: Nov 03 17:31 CET
+"Autocomplete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/4 Testing: Eenvoudige ternaire zoekboom
+1/4 Test: Eenvoudige ternaire zoekboom
+Command: "/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test" "--test-case=Eenvoudige ternaire zoekboom" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test
+"Eenvoudige ternaire zoekboom" start time: Nov 03 17:31 CET
+Output:
+----------------------------------------------------------
+=================================================================
+==24404==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffd7e56c340 at pc 0x55ea207b49c4 bp 0x7ffd7e56c170 sp 0x7ffd7e56c160
+READ of size 1 at 0x7ffd7e56c340 thread T0
+    #0 0x55ea207b49c3 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32
+    #1 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #2 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #3 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #4 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #5 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #6 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #7 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #8 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #9 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #10 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #11 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #12 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #13 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #14 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #15 0x55ea207b4b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #16 0x55ea207b41fe in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:16
+    #17 0x55ea2073cc0c in DOCTEST_ANON_FUNC_13 /home/bram/Documents/gevorderde algoritmen/Autocomplete/test/test.cpp:10
+    #18 0x55ea2073863f in doctest::Context::run() /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:6930
+    #19 0x55ea2073c1df in main /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:7008
+    #20 0x7f1fec676d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #21 0x7f1fec676e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #22 0x55ea206c43f4 in _start (/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test+0x1683f4)
+
+Address 0x7ffd7e56c340 is located in stack of thread T0 at offset 96 in frame
+    #0 0x55ea207b42b7 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:19
+
+  This frame has 2 object(s):
+    [32, 40) 'h' (line 31)
+    [64, 96) '<unknown>' <== Memory access at offset 96 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&)
+Shadow bytes around the buggy address:
+  0x10002fca5810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10002fca5820: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10002fca5830: 00 00 00 00 00 00 00 00 f1 f1 f1 f1 00 f2 f2 f2
+  0x10002fca5840: 00 00 00 00 f3 f3 f3 f3 00 00 00 00 00 00 00 00
+  0x10002fca5850: 00 00 00 00 00 00 00 00 00 00 00 00 f1 f1 f1 f1
+=>0x10002fca5860: f8 f2 f2 f2 00 00 00 00[f3]f3 f3 f3 00 00 00 00
+  0x10002fca5870: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10002fca5880: f1 f1 f1 f1 f8 f2 f2 f2 00 00 00 00 f3 f3 f3 f3
+  0x10002fca5890: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10002fca58a0: 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2 00 00 00 00
+  0x10002fca58b0: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==24404==ABORTING
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Failed.
+"Eenvoudige ternaire zoekboom" end time: Nov 03 17:31 CET
+"Eenvoudige ternaire zoekboom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: Productcodes
+3/4 Test: Productcodes
+Command: "/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test" "--test-case=Productcodes" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test
+"Productcodes" start time: Nov 03 17:31 CET
+Output:
+----------------------------------------------------------
+=================================================================
+==24406==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7fff44409df0 at pc 0x558d9c7759c4 bp 0x7fff44409c20 sp 0x7fff44409c10
+READ of size 1 at 0x7fff44409df0 thread T0
+    #0 0x558d9c7759c3 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32
+    #1 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #2 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #3 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #4 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #5 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #6 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #7 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #8 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #9 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #10 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #11 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #12 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #13 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #14 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #15 0x558d9c775b83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #16 0x558d9c7751fe in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:16
+    #17 0x558d9c7025d6 in DOCTEST_ANON_FUNC_17 /home/bram/Documents/gevorderde algoritmen/Autocomplete/test/test.cpp:40
+    #18 0x558d9c6f963f in doctest::Context::run() /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:6930
+    #19 0x558d9c6fd1df in main /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:7008
+    #20 0x7ffb6260fd8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #21 0x7ffb6260fe3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #22 0x558d9c6853f4 in _start (/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test+0x1683f4)
+
+Address 0x7fff44409df0 is located in stack of thread T0 at offset 96 in frame
+    #0 0x558d9c7752b7 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:19
+
+  This frame has 2 object(s):
+    [32, 40) 'h' (line 31)
+    [64, 96) '<unknown>' <== Memory access at offset 96 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&)
+Shadow bytes around the buggy address:
+  0x100068879360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100068879370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100068879380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f1 f1
+  0x100068879390: f1 f1 00 f2 f2 f2 00 00 00 00 f3 f3 f3 f3 00 00
+  0x1000688793a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x1000688793b0: 00 00 f1 f1 f1 f1 f8 f2 f2 f2 00 00 00 00[f3]f3
+  0x1000688793c0: f3 f3 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1000688793d0: 00 00 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2 00 00
+  0x1000688793e0: 00 00 f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00
+  0x1000688793f0: 00 00 00 00 00 00 00 00 00 00 f1 f1 f1 f1 f8 f2
+  0x100068879400: f2 f2 00 00 00 00 f3 f3 f3 f3 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==24406==ABORTING
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Failed.
+"Productcodes" end time: Nov 03 17:31 CET
+"Productcodes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: Woordenboek
+4/4 Test: Woordenboek
+Command: "/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test" "--test-case=Woordenboek" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test
+"Woordenboek" start time: Nov 03 17:31 CET
+Output:
+----------------------------------------------------------
+=================================================================
+==24407==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7fff9b3d80e0 at pc 0x55e75037a9c4 bp 0x7fff9b3d7f10 sp 0x7fff9b3d7f00
+READ of size 1 at 0x7fff9b3d80e0 thread T0
+    #0 0x55e75037a9c3 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32
+    #1 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #2 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #3 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #4 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #5 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #6 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #7 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #8 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #9 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #10 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #11 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #12 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #13 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #14 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #15 0x55e75037ab83 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:36
+    #16 0x55e75037a1fe in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:16
+    #17 0x55e750308ee9 in DOCTEST_ANON_FUNC_19 /home/bram/Documents/gevorderde algoritmen/Autocomplete/test/test.cpp:60
+    #18 0x55e7502fe63f in doctest::Context::run() /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:6930
+    #19 0x55e7503021df in main /home/bram/Documents/gevorderde algoritmen/Autocomplete/build/_deps/doctest-src/doctest/doctest.h:7008
+    #20 0x7fd7c02a9d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #21 0x7fd7c02a9e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #22 0x55e75028a3f4 in _start (/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test+0x1683f4)
+
+Address 0x7fff9b3d80e0 is located in stack of thread T0 at offset 96 in frame
+    #0 0x55e75037a2b7 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&) /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:19
+
+  This frame has 2 object(s):
+    [32, 40) 'h' (line 31)
+    [64, 96) '<unknown>' <== Memory access at offset 96 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/bram/Documents/gevorderde algoritmen/Autocomplete/src/ternaire-zoekboom.cpp:32 in TernaireZoekboom::voegtoe(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::unique_ptr<TZKnoop, std::default_delete<TZKnoop> >&)
+Shadow bytes around the buggy address:
+  0x100073672fc0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100073672fd0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100073672fe0: 00 00 00 00 00 00 00 00 00 00 00 00 f1 f1 f1 f1
+  0x100073672ff0: 00 f2 f2 f2 00 00 00 00 f3 f3 f3 f3 00 00 00 00
+  0x100073673000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x100073673010: f1 f1 f1 f1 f8 f2 f2 f2 00 00 00 00[f3]f3 f3 f3
+  0x100073673020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100073673030: 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2 00 00 00 00
+  0x100073673040: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100073673050: 00 00 00 00 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2
+  0x100073673060: 00 00 00 00 f3 f3 f3 f3 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==24407==ABORTING
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Failed.
+"Woordenboek" end time: Nov 03 17:31 CET
+"Woordenboek" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 17:31 CET

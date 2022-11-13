@@ -1,0 +1,5 @@
+add_test( [==[Graaf inlezen]==] [==[/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test]==] [==[--test-case=Graaf inlezen]==] -o report.xml -s -r junit)
+set_tests_properties( [==[Graaf inlezen]==] PROPERTIES WORKING_DIRECTORY [==[/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test]==] LABELS)
+add_test( [==[Breedte Eerst Zoeken]==] [==[/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test]==] [==[--test-case=Breedte Eerst Zoeken]==] -o report.xml -s -r junit)
+set_tests_properties( [==[Breedte Eerst Zoeken]==] PROPERTIES WORKING_DIRECTORY [==[/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test]==] LABELS)
+set( fietsknooppunten_test_TESTS [==[Graaf inlezen]==] [==[Breedte Eerst Zoeken]==])

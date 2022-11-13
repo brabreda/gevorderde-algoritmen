@@ -1,0 +1,60 @@
+Start testing: Oct 30 22:32 CET
+----------------------------------------------------------
+1/2 Testing: Graaf inlezen
+1/2 Test: Graaf inlezen
+Command: "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test" "--test-case=Graaf inlezen" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test
+"Graaf inlezen" start time: Oct 30 22:32 CET
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.9"
+[doctest] run with "--help" for options
+===============================================================================
+/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp:5:
+TEST CASE:  Graaf inlezen
+
+/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp:9: FATAL ERROR: REQUIRE( graaf.aantalKnopen() == 3982 ) is NOT correct!
+  values: REQUIRE( 3975 == 3982 )
+
+===============================================================================
+[doctest] test cases: 1 | 0 passed | 1 failed | 1 skipped
+[doctest] assertions: 1 | 0 passed | 1 failed |
+[doctest] Status: FAILURE!
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Failed.
+"Graaf inlezen" end time: Oct 30 22:32 CET
+"Graaf inlezen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Breedte Eerst Zoeken
+2/2 Test: Breedte Eerst Zoeken
+Command: "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test" "--test-case=Breedte Eerst Zoeken" "-o" "report.xml" "-s" "-r" "junit"
+Directory: /home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test
+"Breedte Eerst Zoeken" start time: Oct 30 22:32 CET
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.9"
+[doctest] run with "--help" for options
+===============================================================================
+/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp:23:
+TEST CASE:  Breedte Eerst Zoeken
+  diepte 1
+
+/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp:31: FATAL ERROR: REQUIRE( resultaat.size() == 4 ) is NOT correct!
+  values: REQUIRE( 0 == 4 )
+
+===============================================================================
+[doctest] test cases: 1 | 0 passed | 1 failed | 1 skipped
+[doctest] assertions: 1 | 0 passed | 1 failed |
+[doctest] Status: FAILURE!
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Failed.
+"Breedte Eerst Zoeken" end time: Oct 30 22:32 CET
+"Breedte Eerst Zoeken" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 22:32 CET

@@ -1,0 +1,11 @@
+Graaf 0 0
+Breedte 0 0
+Graaf 0 0
+Breedte 0 0
+Graaf 0 0
+Breedte 0 0
+Graaf inlezen 0 0
+Breedte Eerst Zoeken 0 0
+---
+Graaf inlezen
+Breedte Eerst Zoeken

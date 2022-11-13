@@ -1,0 +1,1 @@
+/usr/bin/g++  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g CMakeFiles/fietsknooppunten_test.dir/test.cpp.o -o fietsknooppunten_test  -Wl,-rpath,"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build" ../libfietsnet.so ../_deps/csv-build/include/internal/libcsv.a 

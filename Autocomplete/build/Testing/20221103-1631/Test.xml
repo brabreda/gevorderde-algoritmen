@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20221103-1631-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="system-bram"
+	OSRelease="5.15.0-52-generic"
+	OSVersion="#58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15902"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4050"
+	>
+	<Testing>
+		<StartDateTime>Nov 03 17:31 CET</StartDateTime>
+		<StartTestTime>1667493084</StartTestTime>
+		<TestList>
+			<Test>./test/Autocomplete</Test>
+			<Test>./test/Eenvoudige_ternaire_zoekboom</Test>
+			<Test>./test/Productcodes</Test>
+			<Test>./test/Woordenboek</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>Autocomplete</Name>
+			<Path>./test</Path>
+			<FullName>./test/Autocomplete</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Autocomplete" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.1706</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Autocomplete" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztWW1v2zYQ/u5fccCANWmTWLL8KsQFvPQVW5PCcT+sxSBQFGmzkUSVpPLSX78jLTu2I6Nrig4YJkOwHR758LmHx+OFHo9/8NUajzvdrtcbj19OpxfTECZJopjWlyQXRnxlKgRtCL06jkvOmTqW10zxVN6AzIEsu4J3O+CcxqOOFyQjD4iBgmJjr8eGtN8ldES7EBeb3WLqgd5uib3W9OXkBUgOGucF3+LsIJuFYiSBmdcCfP3ibU8SgMhhxlROhGIfJbuKpczC8FqyuZHsQJskDKOI3t76fhjGRAsaaaNEPj+lC6KOwHWwXyOjiDDaNT+v2kmaSkqMVMtWwHaRm8pY5uJLyaLCqNPZx99zKYvKkDBOytRECUuZYSsjjv71ENoLmbF2rEjWfiFpmbHc6PacXUuVMHyApHOphMH29qQ0ksqssCBtrWjbVF4ef63cPKFFEQadpS7+pi7xsNGlv9Sl0+hSq0vQ6FKrS7fRpVaXXqNLrS79RpdaXQaNLrW6DBtdanUZNbrU6uJ7jTD1wjQV7x5hmpJ3jzBNzbtHmKbo3SNMU/XuEWar7PU5+1eF+Rme+SvPNgrXYNBnQ+vZi4uz2cvLWTQ5vziPXn04P4swMh7LwTBt3Jubt9Or5t0oDAOvH3A7byKp7RiGZzI37Ba/qDI/eLz7cSnSpI2xUuh2hX1sJam+rz5PFmF/FFQXbv5GZRZ0/cQRywi+/XwWA88bVtc4nrsXHCAtPvKToWMRRamIbSQRZSKKYRI5XicnbX2nHXxemLRd1wnBeytofxOaBQ+h7YBIIHsLTXXpEI+d7YSGwai6guvcH7xBTAPedUCuGxz8mFhOF7LRHtmWZ96t3x/iRIet1qT+XlZocJuHJZaMu9W1t63rS1V74So518zAqG+7cGTIaq5aO/Hg/578/FELhZktUFOnEiyIhg7I+DOj5kAfhk62T0HnCLreITxZPIGDVOQMAv9waep3j1BmNJ2W+VUub/LnT+B0PIZ3LJPqDgildgm3lmR1965xzXDia6IEiVPWevP2fBYu2zJyBzE6BJykmkEhtTDiGlMyhztZKiiUnCNfKDXToFEVoKU2MqvCocxvRJ5AxlD5XOgMtb0hBV1mHJAKrrlUV84BQIdkPv+cFUBwyNmzZ8BuKSuMkLmGp0Sxp6DLopAKA+6wdfnh3bvJ9M9//vvCz7ge/09FbetyQRIUIr7D/Q1EyRJlNgsGcTmf361+fLGBhlvf8zx/0AmGg74Xgud917ODMPhhhOEagfv3j/2zUz2bw3mAzw7CCBFc+6M5kFovNvnw4Q6f1vj5JkK8QvjEg7+WZL7FZ4cD/aaSD/jsICRWh3rF9vHZQWDftZqOyQ4CtxzqFdvHZxth6D0iojaCH1I2Zxj7BxLzp95oV6zALWATAwyBFEUqcANi+lluGZeDq2xj02QI9y9H8T0exgK37XovLXt5GKroH7qC/wph0Y/l7QCw+xtGCqTCDc6bfEUuK0BO0PpKMTxXF7aPYnMksbYmaL102bVmsFN7ac1E8gC5s7YqMV/sDHa7ZmklHFMeWk2pVhPz3tqKyb7qoaks3GhuC57XqYxJujuptY7urQLzNLiku2Zly+P3UmgclKDWFn9tBD5Aq61RsVDCGVf5fMWK2kVRCo8pKuWV2FoVPPTQ+jbH7FqdpFvc4tiOxYPDJlabxdPNwdxWKn9YhZeZeNstatdo6jSsMVOLXEXcnBRbnNBK738kn/x2MZ29PX/d+hu+HWCV====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>Eenvoudige ternaire zoekboom</Name>
+			<Path>./test</Path>
+			<FullName>./test/Eenvoudige_ternaire_zoekboom</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Eenvoudige ternaire zoekboom" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.172491</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Eenvoudige ternaire zoekboom" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztWW1v2zYQ/u5fccCANWmbWLJs2RbiAl76iq1J4bgf1mIQKIq02UiiRlJ56a/fUZId2VXWrkEHDJMh2A6PfPjcw+PxQs9mD3z1ZrPBcOgMZ7MXi8X5IoB5HCum9QXJhBGfmQpAG0Ivj6KCc6aO5BVTPJHXIDMgVVdwbsacx2M28qk3dIAYyCk2jkaMDJxxNJzSIUR5s5s7dkDvtvhOb/Fi/hwkB43zgmtx9pDNWjESw9LpAb5+cnYn8UBksGQqI0KxD5JdRlKmQXAl2cpIdqBNHARhSG9uXDcIIqIFDbVRIlud0DVRT6HsYL+GRhFhdNn8rG4nSSIpMVJVrYDtIjO1scjEnwULc6NOlh9+zaTMa0PMOCkSE8YsYYZtjDj650Por2XK+pEiaf+5pEXKMqP7K3YlVczwAZKspBIG2/vzwkgq09yC9LWifVN7efS5dvOY5nngDSpd3KYu0aTTxa90GXS6tOridbq06jLsdGnVZdTp0qqL3+nSqsu406VVl0mnS6su006XVl1cpxOmXZiu4r1HmK7kvUeYrua9R5iu6L1HmK7qvUeYnbLX5exfFeZHeOZuPGsUrh6lDrWePT8/Xb64WIbzs/Oz8OX7s9MQc8n3cjBMm/Ktmre+13IbhaE38T1u540ltR2D4FRmht3gF1VkB9/vflSIJO5jrOS6X2MfWUnq75vP43XgT70NsWlTEDcuiaUE3348i7HjTOprHKe8F8RIo/7YjyclizBMRGQjiSgTUgyTsOR1fNzXt7qEz3KT9Ns6IfhoA+02oZn3JbQdEApkb6GpLkrEo9J2TANvWl/BDe4OXp8OPT4sgcpucPAwsUpdSKM9tC1PnBvXn+BEh73evP1eVmgoNw+LLZnyVtfetm4vVe2Fq+RcMwNT33bhyJC1XLUOovH/Pfm50x4Ks1yjpqVKsCYaBiCjT4yaA30YlLJ99AZPYegcwqP1IzhIRMbAcw8rkz98ijKj6aTILjN5nT17BCezGbxlqVS3QCi1S7izJJu7d41rhhNfESVIlLDe6zdny6BqS8ktROgQcJJoBrnUwogrTMkcbmWhIFdyhXyh0EyDRlWAFtrItA6HIrsWWQwpQ+UzoVPU9prktMo4IBVccakuSwcAHZLZ6lOaA8Ehp0+eALuhLDdCZhoeE8Uegy7yXCoMuMPexfu3b+eL37/994UfcT3+n4ra3sWaxChEdIv7G4iSBcps1gyiYrW63fz4YgMNt77jOANOyWjiOgE4zj969hAGD0bw/gaBu3eP/XNQPXsIwz0E7t0938Zh9I1eNPj0Zs+aCD4i8MmWYXPUR+790cZnj8P4wUpOLIeGYvfwaeqzhzB9MAeyvxZf57OHEFkvvr6COwiN4IeErRjG/oHE/Kkb7YrluAVsYoAJkDxPBG5ATD/VlilzcJ1tbJoM4O5VUnyHh7HAbbvdS1UvBwMTvUGa+K8QFv1Y3o4Bu79mJEcq3OC88WfksgHkBK0vFcNzdW37KLZCEltrjNaLMru2DMao21hTEX+BPNhalVit9waXa11ZCceUh1ZTqM3EfLS1YrKve2gq83I0twXPq0RGJNmf1Fqnd1aBeRrKpLtlZcvjd1JoHBSj1hZ/awQ+RqutUbFQwhk3+XzDitpFUQqPKSrlpdhZFTz00Pomw+xan6Q73KLIjsWDwyZWm8WT5mBuK5XfrMJVJt51i9o1WpQatpipRa4jbkXyHU5opXc/ks9/OV8s35y96v0FXuxiUA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>Productcodes</Name>
+			<Path>./test</Path>
+			<FullName>./test/Productcodes</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Productcodes" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.171206</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Productcodes" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztWW1v2zYQ/u5fccCANWmbWLJs2RbiAln6iq1J4bgf1mIQKIq0uciiRlJ56a/fkZJfq6xtig4YJkFwDB758LmHx+OFnky+8+lMJr1+3wsnkxfT6cU0gtM0VUzrS5ILIz4xFYE2hF4dJSXnTB3Ja6Z4Jm9A5kCqruDdDjnnfYQZp9wDYqCg2DgYjNIxHQ4HY9qHpNjuRnse6N0W3+tMX5w+B8lB47zgW5w9ZLNQjKQw8zqAz0/e7iQBiBxmTOVEKPZBsqtEymUUXUs2N5IdaJNGURzT21vfj6KEaEFjbZTI5yd0QdRTcB3s19goIox2zc/qdpJlkhIjVdUK2C5yUxvLXPxVsrgw6mT24ddcyqI2pIyTMjNxyjJm2MqIo38+hO5CLlk3UWTZfS5puWS50d05u5YqZfgCyeZSCYPt3dPSSCqXhQXpakW7pvby6FPt5jEtiijoVbr427oko1aXsNKl1+rSqEvQ6tKoS7/VpVGXQatLoy5hq0ujLsNWl0ZdRq0ujbqMW10adfG9VphmYdqK9x5h2pL3HmHamvceYdqi9x5h2qr3HmF2yl6fs39VmB/hmb/ybKtw9XqDNLSePb84m724nMWn5xfn8cv352cxdnsoB8O0cR9u3n59r+VvCsOQj8OA23lTSW3HKDqTuWG3+EWV+cHD3U9KkaVdjJVCd2vsIytJ/X3193gRheNgRWy8RSz1U0dsSfDjx7MYet6ovsbxqnvBJOyFHk9HjkUcZyKxkUSUiSmGSex4HR939Z128Hlhsm5TJwQfrKD9bWgWfA5tB8QC2VtoqkuHeORsxzQKxvUVXG9z8IajQcD7Dsh1g4PvE8vpQrbaY9vyxLv1wxFOdNjpnDbfywoNbvOw1JJxt7r2tnV9qWovXCXnmhkYu1DnyJA1XLX2kuH/Pfn54w4KM1ugpk4lWBANPZDJn4yaA30YOdk+Br2n0PcO4dHiERxkImcQ+IeVKew/RZnRdFLmV7m8yZ89gpPJBN6ypVR3QCi1S7izJKu7d41rhhNfEyVIkrHO6zfns6hqW5I7SNAh4CTTDAqphRHXmJI53MlSQaHkHPlCqZkGjaoALbWRyzocyvxG5CksGSqfC71EbW9IQauMA1LBNZfqyjkA6JDM538uCyA45OzJE2C3lBVGyFzDY6LYY9BlUUiFAXfYuXz/9u3p9Pev/33hR1yP/6eitnO5ICkKkdzh/gaiZIkymwWDpJzP71Y/vthAw63veV44Gg3HQehF4Hnf9O4hDL8bYfRNCNzHdw9hjAiu3XXo1e/OqGDzNnEgD/Bi8mwbIVkjVEzqd9TI5yMP/uDBHgdqvdgwfICSaaMX/8hnD4FtvNhX7Cs58C8q+RmfXYS+Z3X48grucNgKfsjYnGHsH0jMn3qrXbECt4BNDDACUhSZwA2I6afaMi4H19nGpskINo9z8h0exgK37XovVb08DDpkiqTwXyEs+rG8HQJ2f81IgVS4wXnTT8hlBcgJWl8qhufqwvZRbI4k1tYUrZcuuzYMdpFfWZci/Qy5t7YqMV/sDXbxVlkJx5SHVlOq1cR8sLZisq97aCoLN5rbgudVJhOS7U9qreONVWCeBpd016xsefxOCo2DUtTa4q+NwIdotTUqFko44yqfr1hRuyhK4TFFpbwSO6uChx5a3+SYXeuTdIdbktixeHDYxGqzeLY9mNtK5TercJWJd92ido2mTsMGM7XIdcTNSbHDCa108yP56S8X09mb81edvwHLGlta====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>Woordenboek</Name>
+			<Path>./test</Path>
+			<FullName>./test/Woordenboek</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Woordenboek" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.170998</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Autocomplete/build/test/autocomplete_test "--test-case=Woordenboek" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztWWtv2zYU/e5fcYEBa9I2sR5+CnEBL00f2JoUjvthLQaBokibjSxqJJVHf/0uadmxXXlLG3TAMAmCLfCSh+ceXV5e06PRI6/WaBR0Ol5/NDqbTC4mEYzTVDGtL0kujPjCVATaEHp1lJScM3Ukr5nimbwBmQNZdgXvts85HyZhOvCYB8RAQbGx22X9rhf2yZB2ICk2uvW574HebvG81uRs/BIkB43zgm9xdpDNXDGSwtRrAV4/eduThCBymDKVE6HYR8muEikXUXQt2cxIdqBNGkVxTG9vfT+KEqIFjbVRIp+d0DlRz8F1sI+xUUQY7ZpfVO0kyyQlRqplK2C7yE1lLHPxZ8niwqiT6cdfcymLypAyTsrMxCnLmGErI47++RDac7lg7USRRfulpOWC5Ua3Z+xaqpThDSSbSSUMtrfHpZFULgoL0taKtk3l5dGXys1jWhRRGCx18Td1SQaNLr2lLkGjS60uYaNLrS6dRpdaXbqNLrW69BpdanXpN7rU6jJodKnVZdjoUquL7zXC1AvTVLx7hGlK3j3CNDXvHmGaonePME3Vu0eYrbLX5+xfFeZHeOavPNsoXL0BY0Pr2cuL0+nZ5TQen1+cx68+nJ/G/vC7ORimjftw8/aqcy3/vjAMOOuF3M6bSmo7RtGpzA27xQdV5gff735SiixtY6wUul1hH1lJqufV9/E86g3DFbGNyswL/NQRWxD8+PEs+p43qI5xPHcumPapF5BhOnAs4jgTiY0kokxMMUxix+v4uK3vtIPPC5O16zoheHcF7W9Cs/BraDsgFsjeQlNdOsQjZzumUTisjuCC+403GJCQdxyQ6wYHjxPL6UI22mPb8sy79XsDnOiw1RrXn8sKDW7xsNSScae69rR1fahqD1wl55oZGPZsF44MWc1Ra5D0/+/Jzx+2UJjpHDV1KsGcaAhAJp8ZNQf6MHKyfQqD59DxDuHJ/AkcZCJnEPqHS1Ov8xxlRtNJmV/l8iZ/8QRORiN4xxZS3QGh1L7CrVeyOnvX+M5w4muiBEky1nrz9nwaLdsW5A4SdAg4yTSDQmphxDWmZA53slRQKDlDvlBqpkGjKkBLbeSiCocyvxF5CguGyudCL1DbG1LQZcYBqeCaS3XlHAB0SOazz4sCCA45ffYM2C1lhREy1/CUKPYUdFkUUmHAHbYuP7x7N578/vD/F37E8fh/Kmpbl3OSohDJHa5vIEqWKLOZM0jK2exu9eeLDTRc+p7n9cNeP+DUi8DzvuneQUgfjcAeiMD99b2DwJcIPKjurVHh/b2PQ4jf3+7F6MUmgo8IGwyBD2r5fOLhHys+OxyCRyoZ4i67jfAAPjsIHetFvWIP5ND9Gy/28NlB6O168c98NoMfMjZjGPsHEvOn3mhXrMAlYBMDDIAURSZwAWL6WS4Zl4OrbGPTZAT3l3PyPW7GApftei0te3lYA6CiSA1/CmHRj+VtH7D7G0YKpMINzpt+QS4rQE7Q+kox3Ffnto9iMySxtqZovXTZtWawi/yldSHSr5CDtVWJ2XxnsIu3pZVwTHloNaVaTcy7aysm+6qHprJwo7kteF5nMiHZ7qTWOry3CszT4JLumpUtj99LoXFQilpb/LUReB+ttkbFQglnXOXzFStqX4pSuE1RKa/E1lvBTQ+tb3PMrtVOusUtSexY3DhsYrVZPNsczG2l8ptVeJmJt92i9h1NnIY1ZmqRq4ibkWKLE1rp/Z/k418uJtO3569bfwGgWlqc====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 03 17:31 CET</EndDateTime>
+		<EndTestTime>1667493085</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

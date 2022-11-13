@@ -1,0 +1,5 @@
+if(EXISTS "/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test_tests-ef3fd9b.cmake")
+  include("/home/bram/Documents/gevorderde algoritmen/Autocomplete/build/test/autocomplete_test_tests-ef3fd9b.cmake")
+else()
+  add_test(autocomplete_test_NOT_BUILT-ef3fd9b autocomplete_test_NOT_BUILT-ef3fd9b)
+endif()

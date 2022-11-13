@@ -1,0 +1,5 @@
+if(EXISTS "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test_tests-ef3fd9b.cmake")
+  include("/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test_tests-ef3fd9b.cmake")
+else()
+  add_test(fietsknooppunten_test_NOT_BUILT-ef3fd9b fietsknooppunten_test_NOT_BUILT-ef3fd9b)
+endif()

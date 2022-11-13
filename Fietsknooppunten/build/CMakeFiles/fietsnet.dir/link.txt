@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -shared -Wl,-soname,libfietsnet.so -o libfietsnet.so CMakeFiles/fietsnet.dir/src/fietsnet.cpp.o  _deps/csv-build/include/internal/libcsv.a 

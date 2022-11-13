@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build",
+  "command": "/usr/bin/g++ -Dfietsnet_EXPORTS -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/single_include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/httplib-src\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -fPIC -std=gnu++20 -o CMakeFiles/fietsnet.dir/src/fietsnet.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/fietsnet.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/fietsnet.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build",
+  "command": "/usr/bin/g++ -Dserializer_EXPORTS -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/single_include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/httplib-src\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -fPIC -std=gnu++20 -o CMakeFiles/serializer.dir/src/serializer.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/serializer.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/serializer.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build",
+  "command": "/usr/bin/g++ -DCPPHTTPLIB_ZLIB_SUPPORT -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/single_include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/httplib-src\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/fietsknooppunten.dir/src/webserver.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/webserver.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/src/webserver.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/basic_csv_parser.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/basic_csv_parser.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/basic_csv_parser.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/col_names.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/col_names.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/col_names.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_format.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_format.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_format.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_reader.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_reader.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_reader.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_reader_iterator.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_reader_iterator.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_reader_iterator.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_row.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_row.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_row.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_row_json.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_row_json.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_row_json.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_stat.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_stat.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_stat.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/include/internal",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv.dir/csv_utility.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_utility.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include/internal/csv_utility.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/programs",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv_info.dir/csv_info.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/programs/csv_info.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/programs/csv_info.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-build/programs",
+  "command": "/usr/bin/g++ -DCMAKE_CXX_STANDARD=17 -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/include\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -Wno-unknown-pragmas -g --coverage -Og -std=gnu++17 -o CMakeFiles/csv_stats.dir/csv_stats.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/programs/csv_stats.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/programs/csv_stats.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/test",
+  "command": "/usr/bin/g++  -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/single_include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/httplib-src\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/doctest-src\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20 -o CMakeFiles/fietsknooppunten_test.dir/test.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/test/test.cpp"
+},
+{
+  "directory": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/doctest-build",
+  "command": "/usr/bin/g++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-src/single_include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/httplib-src\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/include\" -I\"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/doctest-src\"  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++11 -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c \"/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/doctest-src/doctest/parts/doctest.cpp\"",
+  "file": "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/doctest-src/doctest/parts/doctest.cpp"
+}
+]

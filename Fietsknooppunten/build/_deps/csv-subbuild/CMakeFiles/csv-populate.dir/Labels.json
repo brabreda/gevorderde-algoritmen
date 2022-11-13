@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/CMakeFiles/csv-populate"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/CMakeFiles/csv-populate.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/CMakeFiles/csv-populate-complete.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-build.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-configure.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-download.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-install.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-patch.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-test.rule"
+		},
+		{
+			"file" : "/home/bram/Documents/gevorderde algoritmen/Fietsknooppunten/build/_deps/csv-subbuild/csv-populate-prefix/src/csv-populate-stamp/csv-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"csv-populate"
+		],
+		"name" : "csv-populate"
+	}
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20221030-2011-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="system-bram"
+	OSRelease="5.15.0-52-generic"
+	OSVersion="#58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15902"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2200"
+	>
+	<Testing>
+		<StartDateTime>Oct 30 22:32 CET</StartDateTime>
+		<StartTestTime>1667165536</StartTestTime>
+		<TestList>
+			<Test>./test/Graaf_inlezen</Test>
+			<Test>./test/Breedte_Eerst_Zoeken</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>Graaf inlezen</Name>
+			<Path>./test</Path>
+			<FullName>./test/Graaf_inlezen</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test "--test-case=Graaf inlezen" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.426487</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test "--test-case=Graaf inlezen" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytUsFqwkAUvO9XjDnpwaRqpU3AQ2hjkUqlMZ6kh23yootxd9ndWCj9+CZBqqeeXB7L8JjZWea9baFyR9Z94AxwImOFkhAW3ti/90OPbf9Ippb4Em4PbzjcU6U9lMpAadcoLJvd9rBgr44UfBp+DJ5VXh9JOhvs6KRMQU2BVztlhGv6wVyQsweplNa1dE2j/W93+bnW0TRiWbLO8BSvkwh4MZyXELKib5Lshj5hhHmcxUskabpKI6TJ+2aRJn3sWkefc+l49SqVJtkfYDbDJHwcY9CG/bbKkCtjKHc9Bpx4VZO9emESPkwvCnbzsC9D7tYg57a1H+EHd9DcWioaOELJRXWG9iC0puJK2dJMtwv/KK/4a8ddbdvMFstNmvTYL9wdy30=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>Breedte Eerst Zoeken</Name>
+			<Path>./test</Path>
+			<FullName>./test/Breedte_Eerst_Zoeken</FullName>
+			<FullCommandLine>/home/bram/Documents/gevorderde\ algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test "--test-case=Breedte Eerst Zoeken" "-o" "report.xml" "-s" "-r" "junit"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.426241</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/bram/Documents/gevorderde\ algoritmen/Fietsknooppunten/build/test/fietsknooppunten_test "--test-case=Breedte Eerst Zoeken" "-o" "report.xml" "-s" "-r" "junit"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytUsFqwkAQve9XjDnpwaRRLw14sO0KglQa46XSwzYZdTFml51JCqUf302QmlNPLsvyGN7jzbydfWFyRuIPuAJo0JE2FWiCYBLOwsdA7P9Irq7gS/MJgvH4hKUN4GAcGMteQWJ+3yOik7lg9OnUJXoxeX3Biik6YmNcgf6CKo/Gafb1aKmR6VwZY21dsS+0/XZPmFubTKaJyOQ2g+fFViYATw6xYATph2V4N3jGSgAUGq2vxuKO1tM4geUiW6xBpukmTSCVb7tVKofgkOqSleKQ9DcORzCfwwxGbfKvmwxy4xzmPPB9NaqskXrShytX3D3z219325Arao1j+PGeVhFh4WEMB6XLK6SzthaLnrKluW4l/lH2+FtWXFMb02q9S+VA/AKiBc4p====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 30 22:32 CET</EndDateTime>
+		<EndTestTime>1667165536</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
