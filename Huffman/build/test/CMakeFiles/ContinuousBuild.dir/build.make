@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Utility rule file for ContinuousBuild.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/ContinuousBuild.dir/compiler_depend.make
 include test/CMakeFiles/ContinuousBuild.dir/progress.make
 
 test/CMakeFiles/ContinuousBuild:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ContinuousBuild
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ContinuousBuild
 
 ContinuousBuild: test/CMakeFiles/ContinuousBuild
 ContinuousBuild: test/CMakeFiles/ContinuousBuild.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/ContinuousBuild.dir/build: ContinuousBuild
 .PHONY : test/CMakeFiles/ContinuousBuild.dir/build
 
 test/CMakeFiles/ContinuousBuild.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/ContinuousBuild.dir/clean
 
 test/CMakeFiles/ContinuousBuild.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/ContinuousBuild.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bram/Documents/gevorderde algoritmen/Huffman/test
+# Install script for directory: /home/bram/Documents/school/gevorderde algoritmen/Huffman/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build/cmake_install.cmake")
+  include("/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build/cmake_install.cmake")
 endif()
 

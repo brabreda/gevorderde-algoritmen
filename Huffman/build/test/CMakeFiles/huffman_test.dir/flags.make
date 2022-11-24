@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/bram/Documents/gevorderde algoritmen/Huffman/include" -I"/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src"
+CXX_INCLUDES = -I"/home/bram/Documents/school/gevorderde algoritmen/Huffman/include" -I"/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src"
 
 CXX_FLAGS =  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -std=gnu++20
 

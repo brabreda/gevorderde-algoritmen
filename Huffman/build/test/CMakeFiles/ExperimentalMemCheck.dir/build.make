@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Utility rule file for ExperimentalMemCheck.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/ExperimentalMemCheck.dir/compiler_depend.make
 include test/CMakeFiles/ExperimentalMemCheck.dir/progress.make
 
 test/CMakeFiles/ExperimentalMemCheck:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ExperimentalMemCheck
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ExperimentalMemCheck
 
 ExperimentalMemCheck: test/CMakeFiles/ExperimentalMemCheck
 ExperimentalMemCheck: test/CMakeFiles/ExperimentalMemCheck.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/ExperimentalMemCheck.dir/build: ExperimentalMemCheck
 .PHONY : test/CMakeFiles/ExperimentalMemCheck.dir/build
 
 test/CMakeFiles/ExperimentalMemCheck.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/ExperimentalMemCheck.dir/clean
 
 test/CMakeFiles/ExperimentalMemCheck.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/ExperimentalMemCheck.dir/depend
 

@@ -33,6 +33,7 @@ class obitstream : public ostringstream
 {
 public:
     obitstream();
+    obitstream(const obitstream &);
     void close();
     bool fail();
     //Opletten: het werkelijke uitschrijven gbeurt in groepen van acht

@@ -69,6 +69,7 @@ operator<<(ostream &os, const HuffmanCode &code);
  */
 map<char, HuffmanCode> maakCoderingsTabel(const HuffmanKnoop* wortel);
 
+void maakCoderingsTabel(const HuffmanKnoop *knoop, map<char, HuffmanCode> &tabel, uint voorstelling, uint lengte);
 
 /**
  * Codeert de gegeven input aan de hand van de gegeven Huffmancodering.

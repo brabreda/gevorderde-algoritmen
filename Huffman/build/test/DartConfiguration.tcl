@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/bram/Documents/gevorderde algoritmen/Huffman/test
-BuildDirectory: /home/bram/Documents/gevorderde algoritmen/Huffman/build/test
+SourceDirectory: /home/bram/Documents/school/gevorderde algoritmen/Huffman/test
+BuildDirectory: /home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/bram/Documents/gevorderde algoritmen/Huffman/test"
+ConfigureCommand: "/usr/bin/cmake" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bram/Documents/gevorderde algoritmen/Huffman/src/bitstream.cpp" "CMakeFiles/bitstream.dir/src/bitstream.cpp.o" "gcc" "CMakeFiles/bitstream.dir/src/bitstream.cpp.o.d"
+  "/home/bram/Documents/school/gevorderde algoritmen/Huffman/src/bitstream.cpp" "CMakeFiles/bitstream.dir/src/bitstream.cpp.o" "gcc" "CMakeFiles/bitstream.dir/src/bitstream.cpp.o.d"
   )
 
 # Targets to which this target links.

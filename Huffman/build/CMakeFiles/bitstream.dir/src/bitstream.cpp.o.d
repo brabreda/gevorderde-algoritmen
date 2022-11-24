@@ -1,7 +1,7 @@
 CMakeFiles/bitstream.dir/src/bitstream.cpp.o: \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/src/bitstream.cpp \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/src/bitstream.cpp \
  /usr/include/stdc-predef.h \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/include/bitstream.h \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/include/bitstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

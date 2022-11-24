@@ -1,7 +1,7 @@
 test/CMakeFiles/huffman_test.dir/test.cpp.o: \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/test/test.cpp \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/test/test.cpp \
  /usr/include/stdc-predef.h \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/build/_deps/doctest-src/doctest/doctest.h \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/build/_deps/doctest-src/doctest/doctest.h \
  /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -273,7 +273,7 @@ test/CMakeFiles/huffman_test.dir/test.cpp.o: \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/include/huffman.h \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/include/huffman.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -286,4 +286,4 @@ test/CMakeFiles/huffman_test.dir/test.cpp.o: \
  /usr/include/c++/11/bits/ranges_uninitialized.h \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/c++/11/optional \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/include/bitstream.h
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/include/bitstream.h

@@ -102,3 +102,8 @@ void obitstream::flush()
 {
     schrijfbits(0, 8 - bits_gebruikt);
 }
+
+obitstream::obitstream(const obitstream &a){
+    this->bits_gebruikt = a.bits_gebruikt;
+    this->uitbuffer = a.uitbuffer;
+}

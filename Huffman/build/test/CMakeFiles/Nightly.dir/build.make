@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Utility rule file for Nightly.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/Nightly.dir/compiler_depend.make
 include test/CMakeFiles/Nightly.dir/progress.make
 
 test/CMakeFiles/Nightly:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D Nightly
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D Nightly
 
 Nightly: test/CMakeFiles/Nightly
 Nightly: test/CMakeFiles/Nightly.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/Nightly.dir/build: Nightly
 .PHONY : test/CMakeFiles/Nightly.dir/build
 
 test/CMakeFiles/Nightly.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/Nightly.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/Nightly.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/Nightly.dir/clean
 
 test/CMakeFiles/Nightly.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test/CMakeFiles/Nightly.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/CMakeFiles/Nightly.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/Nightly.dir/depend
 

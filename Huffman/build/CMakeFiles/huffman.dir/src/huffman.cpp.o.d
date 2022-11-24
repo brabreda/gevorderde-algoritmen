@@ -1,7 +1,7 @@
 CMakeFiles/huffman.dir/src/huffman.cpp.o: \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/src/huffman.cpp \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/src/huffman.cpp \
  /usr/include/stdc-predef.h \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/include/huffman.h \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/include/huffman.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -207,7 +207,7 @@ CMakeFiles/huffman.dir/src/huffman.cpp.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/optional \
  /usr/include/c++/11/bits/enable_special_members.h \
- /home/bram/Documents/gevorderde\ algoritmen/Huffman/include/bitstream.h \
+ /home/bram/Documents/school/gevorderde\ algoritmen/Huffman/include/bitstream.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/queue \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/vector \

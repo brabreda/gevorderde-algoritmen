@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -Dbitstream_EXPORTS
 
-CXX_INCLUDES = -I"/home/bram/Documents/gevorderde algoritmen/Huffman/include"
+CXX_INCLUDES = -I"/home/bram/Documents/school/gevorderde algoritmen/Huffman/include"
 
 CXX_FLAGS =  -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -g -fPIC -std=gnu++20
 

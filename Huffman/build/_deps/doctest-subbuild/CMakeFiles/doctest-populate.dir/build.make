@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild"
 
 # Utility rule file for doctest-populate.
 
@@ -77,63 +77,63 @@ CMakeFiles/doctest-populate-complete: doctest-populate-prefix/src/doctest-popula
 CMakeFiles/doctest-populate-complete: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build
 CMakeFiles/doctest-populate-complete: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install
 CMakeFiles/doctest-populate-complete: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'doctest-populate'"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles"
-	/usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete"
-	/usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'doctest-populate'"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles"
+	/usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete"
+	/usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update:
 .PHONY : doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure: doctest-populate-prefix/tmp/doctest-populate-cfgcmd.txt
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-gitinfo.txt
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps" && /usr/bin/cmake -P "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitclone.cmake"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps" && /usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps" && /usr/bin/cmake -P "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitclone.cmake"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps" && /usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'doctest-populate'"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src"
-	/usr/bin/cmake -E make_directory "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp"
-	/usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'doctest-populate'"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src"
+	/usr/bin/cmake -E make_directory "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp"
+	/usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'doctest-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'doctest-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch"
+	/usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update:
 .PHONY : doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E echo_append
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/cmake -E touch "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test"
 
 doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update: doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'doctest-populate'"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src" && /usr/bin/cmake -P "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitupdate.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'doctest-populate'"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src" && /usr/bin/cmake -P "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitupdate.cmake"
 
 doctest-populate: CMakeFiles/doctest-populate
 doctest-populate: CMakeFiles/doctest-populate-complete
@@ -157,6 +157,6 @@ CMakeFiles/doctest-populate.dir/clean:
 .PHONY : CMakeFiles/doctest-populate.dir/clean
 
 CMakeFiles/doctest-populate.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/doctest-populate.dir/depend
 

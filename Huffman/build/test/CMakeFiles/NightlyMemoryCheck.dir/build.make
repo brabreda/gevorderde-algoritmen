@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Utility rule file for NightlyMemoryCheck.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/NightlyMemoryCheck.dir/compiler_depend.make
 include test/CMakeFiles/NightlyMemoryCheck.dir/progress.make
 
 test/CMakeFiles/NightlyMemoryCheck:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D NightlyMemoryCheck
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D NightlyMemoryCheck
 
 NightlyMemoryCheck: test/CMakeFiles/NightlyMemoryCheck
 NightlyMemoryCheck: test/CMakeFiles/NightlyMemoryCheck.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/NightlyMemoryCheck.dir/build: NightlyMemoryCheck
 .PHONY : test/CMakeFiles/NightlyMemoryCheck.dir/build
 
 test/CMakeFiles/NightlyMemoryCheck.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/NightlyMemoryCheck.dir/clean
 
 test/CMakeFiles/NightlyMemoryCheck.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/NightlyMemoryCheck.dir/depend
 

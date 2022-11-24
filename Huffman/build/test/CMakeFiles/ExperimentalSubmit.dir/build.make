@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Utility rule file for ExperimentalSubmit.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/ExperimentalSubmit.dir/compiler_depend.make
 include test/CMakeFiles/ExperimentalSubmit.dir/progress.make
 
 test/CMakeFiles/ExperimentalSubmit:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ExperimentalSubmit
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && /usr/bin/ctest -D ExperimentalSubmit
 
 ExperimentalSubmit: test/CMakeFiles/ExperimentalSubmit
 ExperimentalSubmit: test/CMakeFiles/ExperimentalSubmit.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/ExperimentalSubmit.dir/build: ExperimentalSubmit
 .PHONY : test/CMakeFiles/ExperimentalSubmit.dir/build
 
 test/CMakeFiles/ExperimentalSubmit.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/ExperimentalSubmit.dir/clean
 
 test/CMakeFiles/ExperimentalSubmit.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/ExperimentalSubmit.dir/depend
 

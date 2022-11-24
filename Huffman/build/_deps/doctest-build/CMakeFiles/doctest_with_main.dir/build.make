@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman"
+CMAKE_SOURCE_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/bram/Documents/gevorderde algoritmen/Huffman/build"
+CMAKE_BINARY_DIR = "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build"
 
 # Include any dependencies generated for this target.
 include _deps/doctest-build/CMakeFiles/doctest_with_main.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/doctest-build/CMakeFiles/doctest_with_main.dir/flags.make
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/flags.make
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o: _deps/doctest-src/doctest/parts/doctest.cpp
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -MF CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o.d -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -MF CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o.d -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp"
 
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp" > CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp" > CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i
 
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp" -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src/doctest/parts/doctest.cpp" -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s
 
 # Object files for target doctest_with_main
 doctest_with_main_OBJECTS = \
@@ -93,19 +93,19 @@ doctest_with_main_EXTERNAL_OBJECTS =
 _deps/doctest-build/libdoctest_with_main.a: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o
 _deps/doctest-build/libdoctest_with_main.a: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/build.make
 _deps/doctest-build/libdoctest_with_main.a: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/bram/Documents/gevorderde algoritmen/Huffman/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libdoctest_with_main.a"
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -P CMakeFiles/doctest_with_main.dir/cmake_clean_target.cmake
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doctest_with_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libdoctest_with_main.a"
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -P CMakeFiles/doctest_with_main.dir/cmake_clean_target.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doctest_with_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/build: _deps/doctest-build/libdoctest_with_main.a
 .PHONY : _deps/doctest-build/CMakeFiles/doctest_with_main.dir/build
 
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/clean:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -P CMakeFiles/doctest_with_main.dir/cmake_clean.cmake
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" && $(CMAKE_COMMAND) -P CMakeFiles/doctest_with_main.dir/cmake_clean.cmake
 .PHONY : _deps/doctest-build/CMakeFiles/doctest_with_main.dir/clean
 
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/depend:
-	cd "/home/bram/Documents/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/gevorderde algoritmen/Huffman" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-src" "/home/bram/Documents/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build" "/home/bram/Documents/gevorderde algoritmen/Huffman/build/_deps/doctest-build/CMakeFiles/doctest_with_main.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/bram/Documents/school/gevorderde algoritmen/Huffman" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-src" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build" "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/_deps/doctest-build/CMakeFiles/doctest_with_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : _deps/doctest-build/CMakeFiles/doctest_with_main.dir/depend
 
