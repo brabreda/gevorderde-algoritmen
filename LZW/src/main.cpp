@@ -6,7 +6,7 @@
 int main()
 {
 	std::cout << "\n\t\tVoorbeeld 1\n" << std::endl;
-	std::string voorbeeld = "ABRACADABRABRABRA";
+	std::string voorbeeld = "ABABABA";
 	std::cout << "invoer      : " << voorbeeld << "\n";
 	std::string compressed = compress_lzw(voorbeeld);
 	std::cout  << "Compressed: " << compressed << "\n";
