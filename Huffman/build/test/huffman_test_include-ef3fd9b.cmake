@@ -1,5 +1,0 @@
-if(EXISTS "/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/huffman_test_tests-ef3fd9b.cmake")
-  include("/home/bram/Documents/school/gevorderde algoritmen/Huffman/build/test/huffman_test_tests-ef3fd9b.cmake")
-else()
-  add_test(huffman_test_NOT_BUILT-ef3fd9b huffman_test_NOT_BUILT-ef3fd9b)
-endif()
