@@ -1,3 +1,0 @@
-/home/bram/Documents/school/gevorderde algoritmen/oefeningen theorie/BEZenDEZ/build/CMakeFiles/BEZenDEZ.dir
-/home/bram/Documents/school/gevorderde algoritmen/oefeningen theorie/BEZenDEZ/build/CMakeFiles/edit_cache.dir
-/home/bram/Documents/school/gevorderde algoritmen/oefeningen theorie/BEZenDEZ/build/CMakeFiles/rebuild_cache.dir
